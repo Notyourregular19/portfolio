@@ -1,0 +1,112 @@
+.gradient-background{
+    background: linear-gradient(300deg, #DAFFFB, #176B87, #04364A);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.top-container{
+    padding-top: 100px;
+}
+.display-5{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    line-height: 80px;
+    font-weight: 876px;
+    font-size: 82px;
+}
+.lead{
+    color: white;
+    font-family:'Montserrat', sans-serif;
+}
+.buton{
+    width: 220px;
+    height: 93px;
+    background-color: #DAFFFB;
+    border-radius: 62px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.buton > * {
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    color: black;
+    font-size: 31px;
+    font-weight: bold;
+    
+}
+.middle-container{
+    background-color: #DAFFFB;
+}
+.me{
+    border-radius: 231px;
+
+}
+h2{
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #04364A;
+}
+.pt-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.grid-container{
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns:  minmax( 11px , 70px) minmax( 90px , 400px);
+    margin-bottom: 1.5rem;
+}
+.grid-container > *{
+    color: #585858;
+    font-weight: bold;
+    text-align: left!important;
+}
+.bottom-container{
+    background-color: #64CCC5;
+
+}
+
+.row-container{
+    padding-bottom: 2rem;
+}
+
+.pb{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer > * {
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+footer > a {
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+    
+}
+
+.card {
+    background-color: #DAFFFB;
+}
