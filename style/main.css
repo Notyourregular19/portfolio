@@ -110,3 +110,14 @@ footer > a {
 .card {
     background-color: #DAFFFB;
 }
+
+@media (max-width:576px) {
+    .Contact {
+        font-size: 0.5rem;
+    }
+
+    .buton {
+        width: 139px;
+        height: 71px;
+    }
+}
