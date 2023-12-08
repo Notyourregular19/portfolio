@@ -113,7 +113,7 @@ footer > a {
 
 @media (max-width:576px) {
     .Contact {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     .buton {
