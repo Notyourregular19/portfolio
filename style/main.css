@@ -1,5 +1,5 @@
 .gradient-background{
-    background: linear-gradient(300deg, #DAFFFB, #176B87, #04364A);
+    background: linear-gradient(300deg, #60a59e, #176B87, #04364A);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
@@ -14,6 +14,21 @@
       background-position: 0% 50%;
     }
   }
+
+.bg-body {
+    background-color: #176B87 !important;
+}
+.navbar {
+    margin-bottom: -1px;
+    font-family: 'montserrat', sans-serif;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-toggler{
+    color: rgb(255 255 255 / 65%);
+}
+
 .top-container{
     padding-top: 100px;
 }
@@ -109,6 +124,10 @@ footer > a {
 
 .card {
     background-color: #DAFFFB;
+}
+
+.projects{
+    background-size: cover !important;
 }
 
 @media (max-width:576px) {
